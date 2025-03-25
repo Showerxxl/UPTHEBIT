@@ -1,11 +1,5 @@
-//
-//  AppDelegate.swift
-//  UP_THE_BIT
-//
-//  Created by Mac on 21.01.2025.
-//
-
 import UIKit
+import MediaPlayer
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,9 +8,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Запрос разрешения на доступ к медиатеке
+        MPMediaLibrary.requestAuthorization { status in
+            switch status {
+            case .authorized:
+                print("Доступ к медиатеке разрешен")
+            case .denied, .restricted:
+                print("Доступ запрещен")
+            case .notDetermined:
+                print("Пользователь ещё не выбрал вариант")
+            @unknown default:
+                break
+            }
+        }
+        
         return true
     }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
