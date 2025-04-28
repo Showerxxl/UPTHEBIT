@@ -1,0 +1,12 @@
+//
+//  ShopConstants.swift
+//  UP_THE_BIT
+//
+//  Created by Mac on 04.04.2025.
+//
+
+import Foundation
+
+enum ShopConstants {
+    static let buttonCount: Int = 3;
+}

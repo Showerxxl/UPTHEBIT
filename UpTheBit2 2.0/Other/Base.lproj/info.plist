@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+    <key>NSMusicLibraryUsageDescription</key>
+    <string>Ваше приложение требует доступ к медиатеке</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Ваше приложение запрашивает доступ к Apple Music</string>
+    
+
+    <key>UIMainStoryboardFile</key>
+    <string></string>
+    
+
+    <key>UIApplicationSceneManifest</key>
+    <dict>
+        <key>UIApplicationSupportsMultipleScenes</key>
+        <false/>
+    </dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>Alagard-12px-unicode.ttf</string>
+
+    </array>
+</dict>
+</plist>

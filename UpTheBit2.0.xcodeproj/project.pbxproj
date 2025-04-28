@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041DBB402DAD50A900C9599C /* ShopCategoryTwoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB3F2DAD509C00C9599C /* ShopCategoryTwoScene.swift */; };
+		041DBB412DAD50A900C9599C /* ShopCategoryTwoScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB3F2DAD509C00C9599C /* ShopCategoryTwoScene.swift */; };
+		041DBB432DAD50D800C9599C /* ShopCategoryThreeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB422DAD50D800C9599C /* ShopCategoryThreeScene.swift */; };
+		041DBB442DAD50D800C9599C /* ShopCategoryThreeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB422DAD50D800C9599C /* ShopCategoryThreeScene.swift */; };
+		041DBB462DAE891900C9599C /* SettingsAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB452DAE891900C9599C /* SettingsAssets.xcassets */; };
+		041DBB472DAE891900C9599C /* SettingsAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB452DAE891900C9599C /* SettingsAssets.xcassets */; };
+		041DBB492DAEA2AE00C9599C /* SecondLvlAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB482DAEA2AE00C9599C /* SecondLvlAssets.xcassets */; };
+		041DBB4A2DAEA2AE00C9599C /* SecondLvlAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB482DAEA2AE00C9599C /* SecondLvlAssets.xcassets */; };
+		041DBB4C2DAEA2C600C9599C /* ThirdLvlAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB4B2DAEA2C600C9599C /* ThirdLvlAssets.xcassets */; };
+		041DBB4D2DAEA2C600C9599C /* ThirdLvlAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB4B2DAEA2C600C9599C /* ThirdLvlAssets.xcassets */; };
+		041DBB592DB2FBFA00C9599C /* MusicSelectAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB582DB2FBFA00C9599C /* MusicSelectAssets.xcassets */; };
+		041DBB5A2DB2FBFA00C9599C /* MusicSelectAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB582DB2FBFA00C9599C /* MusicSelectAssets.xcassets */; };
+		041DBB5C2DB3BDD400C9599C /* Alagard-12px-unicode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB5B2DB3BDD400C9599C /* Alagard-12px-unicode.ttf */; };
+		041DBB5D2DB3BDD400C9599C /* Alagard-12px-unicode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 041DBB5B2DB3BDD400C9599C /* Alagard-12px-unicode.ttf */; };
+		041DBB5F2DB508DE00C9599C /* MusicPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB5E2DB508DE00C9599C /* MusicPickerManager.swift */; };
+		041DBB602DB508DE00C9599C /* MusicPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB5E2DB508DE00C9599C /* MusicPickerManager.swift */; };
+		041DBB622DB50BB800C9599C /* MusicPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB612DB50BB800C9599C /* MusicPlayerService.swift */; };
+		041DBB632DB50BB800C9599C /* MusicPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBB612DB50BB800C9599C /* MusicPlayerService.swift */; };
+		041DBBC32DB537E200C9599C /* BMPAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBBC12DB537E200C9599C /* BMPAnalyzer.swift */; };
+		041DBBC42DB537E200C9599C /* Superpowered.mm in Sources */ = {isa = PBXBuildFile; fileRef = 041DBBBC2DB537E200C9599C /* Superpowered.mm */; };
+		041DBBC62DB537E200C9599C /* BMPAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DBBC12DB537E200C9599C /* BMPAnalyzer.swift */; };
+		041DBBC72DB537E200C9599C /* Superpowered.mm in Sources */ = {isa = PBXBuildFile; fileRef = 041DBBBC2DB537E200C9599C /* Superpowered.mm */; };
+		041DBBC82DB537E200C9599C /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DBBBB2DB537E200C9599C /* libSuperpoweredAudioIOS.a */; };
+		041DBBCE2DB53A3100C9599C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DBBCA2DB53A0D00C9599C /* AudioToolbox.framework */; };
+		041DBBD12DB53A3500C9599C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DBBCC2DB53A1B00C9599C /* CoreMedia.framework */; };
+		041DBBD52DB53A5600C9599C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DBBD32DB53A5400C9599C /* AVFoundation.framework */; };
+		041DBBDD2DB53D1800C9599C /* libSuperpoweredAudioIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DBBBB2DB537E200C9599C /* libSuperpoweredAudioIOS.a */; };
+		041DBBE22DB53EAA00C9599C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041DBBE12DB53EAA00C9599C /* Accelerate.framework */; };
+		04FAF0492DAD21F700579A68 /* ThirdLvlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03F2DAD21F700579A68 /* ThirdLvlEntity.swift */; };
+		04FAF04A2DAD21F700579A68 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0162DAD21F700579A68 /* GamePresenter.swift */; };
+		04FAF04B2DAD21F700579A68 /* ShopConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00B2DAD21F700579A68 /* ShopConstants.swift */; };
+		04FAF04C2DAD21F700579A68 /* GameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0152DAD21F700579A68 /* GameInteractor.swift */; };
+		04FAF04D2DAD21F700579A68 /* FirstLvlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0112DAD21F700579A68 /* FirstLvlRouter.swift */; };
+		04FAF04E2DAD21F700579A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0272DAD21F700579A68 /* AppDelegate.swift */; };
+		04FAF04F2DAD21F700579A68 /* MapConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0072DAD21F700579A68 /* MapConstants.swift */; };
+		04FAF0502DAD21F700579A68 /* ShopInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03A2DAD21F700579A68 /* ShopInteractor.swift */; };
+		04FAF0512DAD21F700579A68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01E2DAD21F700579A68 /* MapView.swift */; };
+		04FAF0522DAD21F700579A68 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01C2DAD21F700579A68 /* MapPresenter.swift */; };
+		04FAF0532DAD21F700579A68 /* SecondLvlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0302DAD21F700579A68 /* SecondLvlRouter.swift */; };
+		04FAF0542DAD21F700579A68 /* ShopEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0392DAD21F700579A68 /* ShopEntity.swift */; };
+		04FAF0552DAD21F700579A68 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0282DAD21F700579A68 /* GameViewController.swift */; };
+		04FAF0562DAD21F700579A68 /* GameEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0142DAD21F700579A68 /* GameEntity.swift */; };
+		04FAF0572DAD21F700579A68 /* SecondLvlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0312DAD21F700579A68 /* SecondLvlView.swift */; };
+		04FAF0582DAD21F700579A68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0372DAD21F700579A68 /* SettingsView.swift */; };
+		04FAF0592DAD21F700579A68 /* FirstLvlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0052DAD21F700579A68 /* FirstLvlConstants.swift */; };
+		04FAF05A2DAD21F700579A68 /* SecondLvlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF02D2DAD21F700579A68 /* SecondLvlEntity.swift */; };
+		04FAF05B2DAD21F700579A68 /* SecondLvlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF02F2DAD21F700579A68 /* SecondLvlPresenter.swift */; };
+		04FAF05C2DAD21F700579A68 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0182DAD21F700579A68 /* GameScene.swift */; };
+		04FAF05D2DAD21F700579A68 /* ThirdLvlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0412DAD21F700579A68 /* ThirdLvlPresenter.swift */; };
+		04FAF05E2DAD21F700579A68 /* MapContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01A2DAD21F700579A68 /* MapContract.swift */; };
+		04FAF05F2DAD21F700579A68 /* ThirdLvlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00C2DAD21F700579A68 /* ThirdLvlConstants.swift */; };
+		04FAF0602DAD21F700579A68 /* MediaPickerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0082DAD21F700579A68 /* MediaPickerConstants.swift */; };
+		04FAF0612DAD21F700579A68 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0362DAD21F700579A68 /* SettingsRouter.swift */; };
+		04FAF0622DAD21F700579A68 /* SecondLvlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0092DAD21F700579A68 /* SecondLvlConstants.swift */; };
+		04FAF0632DAD21F700579A68 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01B2DAD21F700579A68 /* MapInteractor.swift */; };
+		04FAF0642DAD21F700579A68 /* ShopCategoryOneScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03D2DAD21F700579A68 /* ShopCategoryOneScene.swift */; };
+		04FAF0652DAD21F700579A68 /* FirstLvlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00F2DAD21F700579A68 /* FirstLvlInteractor.swift */; };
+		04FAF0662DAD21F700579A68 /* ThirdLvlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0402DAD21F700579A68 /* ThirdLvlInteractor.swift */; };
+		04FAF0672DAD21F700579A68 /* SecondLvlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF02E2DAD21F700579A68 /* SecondLvlInteractor.swift */; };
+		04FAF0682DAD21F700579A68 /* FirstLvlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0102DAD21F700579A68 /* FirstLvlPresenter.swift */; };
+		04FAF0692DAD21F700579A68 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01D2DAD21F700579A68 /* MapRouter.swift */; };
+		04FAF06A2DAD21F700579A68 /* MusicSelectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0202DAD21F700579A68 /* MusicSelectionScene.swift */; };
+		04FAF06B2DAD21F700579A68 /* ShopPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03B2DAD21F700579A68 /* ShopPresenter.swift */; };
+		04FAF06C2DAD21F700579A68 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0342DAD21F700579A68 /* SettingsInteractor.swift */; };
+		04FAF06D2DAD21F700579A68 /* ThirdLvlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0432DAD21F700579A68 /* ThirdLvlView.swift */; };
+		04FAF06E2DAD21F700579A68 /* GameSceneConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0062DAD21F700579A68 /* GameSceneConstants.swift */; };
+		04FAF06F2DAD21F700579A68 /* ShopRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03C2DAD21F700579A68 /* ShopRouter.swift */; };
+		04FAF0702DAD21F700579A68 /* FirstLvlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0122DAD21F700579A68 /* FirstLvlView.swift */; };
+		04FAF0712DAD21F700579A68 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0352DAD21F700579A68 /* SettingsPresenter.swift */; };
+		04FAF0722DAD21F700579A68 /* FirstLvlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00E2DAD21F700579A68 /* FirstLvlEntity.swift */; };
+		04FAF0732DAD21F700579A68 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0172DAD21F700579A68 /* GameRouter.swift */; };
+		04FAF0742DAD21F700579A68 /* ThirdLvlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0422DAD21F700579A68 /* ThirdLvlRouter.swift */; };
+		04FAF0752DAD21F700579A68 /* SettingsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00A2DAD21F700579A68 /* SettingsConstants.swift */; };
+		04FAF0762DAD21F700579A68 /* SettingsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0332DAD21F700579A68 /* SettingsEntity.swift */; };
+		04FAF0772DAD21F700579A68 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF02A2DAD21F700579A68 /* info.plist */; };
+		04FAF0782DAD21F700579A68 /* firstlvl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0222DAD21F700579A68 /* firstlvl.mp3 */; };
+		04FAF0792DAD21F700579A68 /* FirstLvlAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0002DAD21F700579A68 /* FirstLvlAssets.xcassets */; };
+		04FAF07A2DAD21F700579A68 /* MapAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0022DAD21F700579A68 /* MapAssets.xcassets */; };
+		04FAF07D2DAD21F700579A68 /* knightTap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0232DAD21F700579A68 /* knightTap.mp3 */; };
+		04FAF07E2DAD21F700579A68 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0252DAD21F700579A68 /* sound.mp3 */; };
+		04FAF07F2DAD21F700579A68 /* mainMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0242DAD21F700579A68 /* mainMelody.mp3 */; };
+		04FAF0802DAD21F700579A68 /* ShopAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0032DAD21F700579A68 /* ShopAssets.xcassets */; };
+		04FAF0812DAD21F700579A68 /* Animations.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAEFFF2DAD21F700579A68 /* Animations.xcassets */; };
+		04FAF0822DAD21F700579A68 /* MainAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0012DAD21F700579A68 /* MainAssets.xcassets */; };
+		04FAF0832DAD21F700579A68 /* ThirdLvlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03F2DAD21F700579A68 /* ThirdLvlEntity.swift */; };
+		04FAF0842DAD21F700579A68 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0162DAD21F700579A68 /* GamePresenter.swift */; };
+		04FAF0852DAD21F700579A68 /* ShopConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00B2DAD21F700579A68 /* ShopConstants.swift */; };
+		04FAF0862DAD21F700579A68 /* GameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0152DAD21F700579A68 /* GameInteractor.swift */; };
+		04FAF0872DAD21F700579A68 /* FirstLvlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0112DAD21F700579A68 /* FirstLvlRouter.swift */; };
+		04FAF0882DAD21F700579A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0272DAD21F700579A68 /* AppDelegate.swift */; };
+		04FAF0892DAD21F700579A68 /* MapConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0072DAD21F700579A68 /* MapConstants.swift */; };
+		04FAF08A2DAD21F700579A68 /* ShopInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03A2DAD21F700579A68 /* ShopInteractor.swift */; };
+		04FAF08B2DAD21F700579A68 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01E2DAD21F700579A68 /* MapView.swift */; };
+		04FAF08C2DAD21F700579A68 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01C2DAD21F700579A68 /* MapPresenter.swift */; };
+		04FAF08D2DAD21F700579A68 /* SecondLvlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0302DAD21F700579A68 /* SecondLvlRouter.swift */; };
+		04FAF08E2DAD21F700579A68 /* ShopEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0392DAD21F700579A68 /* ShopEntity.swift */; };
+		04FAF08F2DAD21F700579A68 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0282DAD21F700579A68 /* GameViewController.swift */; };
+		04FAF0902DAD21F700579A68 /* GameEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0142DAD21F700579A68 /* GameEntity.swift */; };
+		04FAF0912DAD21F700579A68 /* SecondLvlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0312DAD21F700579A68 /* SecondLvlView.swift */; };
+		04FAF0922DAD21F700579A68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0372DAD21F700579A68 /* SettingsView.swift */; };
+		04FAF0932DAD21F700579A68 /* FirstLvlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0052DAD21F700579A68 /* FirstLvlConstants.swift */; };
+		04FAF0942DAD21F700579A68 /* SecondLvlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF02D2DAD21F700579A68 /* SecondLvlEntity.swift */; };
+		04FAF0952DAD21F700579A68 /* SecondLvlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF02F2DAD21F700579A68 /* SecondLvlPresenter.swift */; };
+		04FAF0962DAD21F700579A68 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0182DAD21F700579A68 /* GameScene.swift */; };
+		04FAF0972DAD21F700579A68 /* ThirdLvlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0412DAD21F700579A68 /* ThirdLvlPresenter.swift */; };
+		04FAF0982DAD21F700579A68 /* MapContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01A2DAD21F700579A68 /* MapContract.swift */; };
+		04FAF0992DAD21F700579A68 /* ThirdLvlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00C2DAD21F700579A68 /* ThirdLvlConstants.swift */; };
+		04FAF09A2DAD21F700579A68 /* MediaPickerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0082DAD21F700579A68 /* MediaPickerConstants.swift */; };
+		04FAF09B2DAD21F700579A68 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0362DAD21F700579A68 /* SettingsRouter.swift */; };
+		04FAF09C2DAD21F700579A68 /* SecondLvlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0092DAD21F700579A68 /* SecondLvlConstants.swift */; };
+		04FAF09D2DAD21F700579A68 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01B2DAD21F700579A68 /* MapInteractor.swift */; };
+		04FAF09E2DAD21F700579A68 /* ShopCategoryOneScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03D2DAD21F700579A68 /* ShopCategoryOneScene.swift */; };
+		04FAF09F2DAD21F700579A68 /* FirstLvlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00F2DAD21F700579A68 /* FirstLvlInteractor.swift */; };
+		04FAF0A02DAD21F700579A68 /* ThirdLvlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0402DAD21F700579A68 /* ThirdLvlInteractor.swift */; };
+		04FAF0A12DAD21F700579A68 /* SecondLvlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF02E2DAD21F700579A68 /* SecondLvlInteractor.swift */; };
+		04FAF0A22DAD21F700579A68 /* FirstLvlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0102DAD21F700579A68 /* FirstLvlPresenter.swift */; };
+		04FAF0A32DAD21F700579A68 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF01D2DAD21F700579A68 /* MapRouter.swift */; };
+		04FAF0A42DAD21F700579A68 /* MusicSelectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0202DAD21F700579A68 /* MusicSelectionScene.swift */; };
+		04FAF0A52DAD21F700579A68 /* ShopPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03B2DAD21F700579A68 /* ShopPresenter.swift */; };
+		04FAF0A62DAD21F700579A68 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0342DAD21F700579A68 /* SettingsInteractor.swift */; };
+		04FAF0A72DAD21F700579A68 /* ThirdLvlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0432DAD21F700579A68 /* ThirdLvlView.swift */; };
+		04FAF0A82DAD21F700579A68 /* GameSceneConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0062DAD21F700579A68 /* GameSceneConstants.swift */; };
+		04FAF0A92DAD21F700579A68 /* ShopRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF03C2DAD21F700579A68 /* ShopRouter.swift */; };
+		04FAF0AA2DAD21F700579A68 /* FirstLvlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0122DAD21F700579A68 /* FirstLvlView.swift */; };
+		04FAF0AB2DAD21F700579A68 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0352DAD21F700579A68 /* SettingsPresenter.swift */; };
+		04FAF0AC2DAD21F700579A68 /* FirstLvlEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00E2DAD21F700579A68 /* FirstLvlEntity.swift */; };
+		04FAF0AD2DAD21F700579A68 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0172DAD21F700579A68 /* GameRouter.swift */; };
+		04FAF0AE2DAD21F700579A68 /* ThirdLvlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0422DAD21F700579A68 /* ThirdLvlRouter.swift */; };
+		04FAF0AF2DAD21F700579A68 /* SettingsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF00A2DAD21F700579A68 /* SettingsConstants.swift */; };
+		04FAF0B02DAD21F700579A68 /* SettingsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAF0332DAD21F700579A68 /* SettingsEntity.swift */; };
+		04FAF0B12DAD21F700579A68 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF02A2DAD21F700579A68 /* info.plist */; };
+		04FAF0B22DAD21F700579A68 /* firstlvl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0222DAD21F700579A68 /* firstlvl.mp3 */; };
+		04FAF0B32DAD21F700579A68 /* FirstLvlAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0002DAD21F700579A68 /* FirstLvlAssets.xcassets */; };
+		04FAF0B42DAD21F700579A68 /* MapAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0022DAD21F700579A68 /* MapAssets.xcassets */; };
+		04FAF0B72DAD21F700579A68 /* knightTap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0232DAD21F700579A68 /* knightTap.mp3 */; };
+		04FAF0B82DAD21F700579A68 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0252DAD21F700579A68 /* sound.mp3 */; };
+		04FAF0B92DAD21F700579A68 /* mainMelody.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0242DAD21F700579A68 /* mainMelody.mp3 */; };
+		04FAF0BA2DAD21F700579A68 /* ShopAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0032DAD21F700579A68 /* ShopAssets.xcassets */; };
+		04FAF0BB2DAD21F700579A68 /* Animations.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAEFFF2DAD21F700579A68 /* Animations.xcassets */; };
+		04FAF0BC2DAD21F700579A68 /* MainAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAF0012DAD21F700579A68 /* MainAssets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FAEFE32DAD219100579A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FAEFC12DAD218F00579A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FAEFC82DAD218F00579A68;
+			remoteInfo = UpTheBit2.0;
+		};
+		04FAEFED2DAD219100579A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FAEFC12DAD218F00579A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FAEFC82DAD218F00579A68;
+			remoteInfo = UpTheBit2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041DBB3F2DAD509C00C9599C /* ShopCategoryTwoScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCategoryTwoScene.swift; sourceTree = "<group>"; };
+		041DBB422DAD50D800C9599C /* ShopCategoryThreeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCategoryThreeScene.swift; sourceTree = "<group>"; };
+		041DBB452DAE891900C9599C /* SettingsAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SettingsAssets.xcassets; sourceTree = "<group>"; };
+		041DBB482DAEA2AE00C9599C /* SecondLvlAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SecondLvlAssets.xcassets; sourceTree = "<group>"; };
+		041DBB4B2DAEA2C600C9599C /* ThirdLvlAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ThirdLvlAssets.xcassets; sourceTree = "<group>"; };
+		041DBB582DB2FBFA00C9599C /* MusicSelectAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MusicSelectAssets.xcassets; sourceTree = "<group>"; };
+		041DBB5B2DB3BDD400C9599C /* Alagard-12px-unicode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alagard-12px-unicode.ttf"; sourceTree = "<group>"; };
+		041DBB5E2DB508DE00C9599C /* MusicPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPickerManager.swift; sourceTree = "<group>"; };
+		041DBB612DB50BB800C9599C /* MusicPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerService.swift; sourceTree = "<group>"; };
+		041DBBBA2DB537E200C9599C /* BPMAnalyzer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPMAnalyzer-Bridging-Header.h"; sourceTree = "<group>"; };
+		041DBBBB2DB537E200C9599C /* libSuperpoweredAudioIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSuperpoweredAudioIOS.a; sourceTree = "<group>"; };
+		041DBBBC2DB537E200C9599C /* Superpowered.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Superpowered.mm; sourceTree = "<group>"; };
+		041DBBBD2DB537E200C9599C /* SuperpoweredAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAnalyzer.h; sourceTree = "<group>"; };
+		041DBBBE2DB537E200C9599C /* SuperpoweredDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredDecoder.h; sourceTree = "<group>"; };
+		041DBBBF2DB537E200C9599C /* SuperpoweredSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimple.h; sourceTree = "<group>"; };
+		041DBBC12DB537E200C9599C /* BMPAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMPAnalyzer.swift; sourceTree = "<group>"; };
+		041DBBCA2DB53A0D00C9599C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		041DBBCC2DB53A1B00C9599C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		041DBBD32DB53A5400C9599C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		041DBBE12DB53EAA00C9599C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		04FAEFC92DAD218F00579A68 /* UpTheBit2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpTheBit2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FAEFE22DAD219100579A68 /* UpTheBit2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpTheBit2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FAEFEC2DAD219100579A68 /* UpTheBit2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpTheBit2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FAEFFF2DAD21F700579A68 /* Animations.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Animations.xcassets; sourceTree = "<group>"; };
+		04FAF0002DAD21F700579A68 /* FirstLvlAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FirstLvlAssets.xcassets; sourceTree = "<group>"; };
+		04FAF0012DAD21F700579A68 /* MainAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainAssets.xcassets; sourceTree = "<group>"; };
+		04FAF0022DAD21F700579A68 /* MapAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MapAssets.xcassets; sourceTree = "<group>"; };
+		04FAF0032DAD21F700579A68 /* ShopAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ShopAssets.xcassets; sourceTree = "<group>"; };
+		04FAF0052DAD21F700579A68 /* FirstLvlConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLvlConstants.swift; sourceTree = "<group>"; };
+		04FAF0062DAD21F700579A68 /* GameSceneConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneConstants.swift; sourceTree = "<group>"; };
+		04FAF0072DAD21F700579A68 /* MapConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConstants.swift; sourceTree = "<group>"; };
+		04FAF0082DAD21F700579A68 /* MediaPickerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPickerConstants.swift; sourceTree = "<group>"; };
+		04FAF0092DAD21F700579A68 /* SecondLvlConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLvlConstants.swift; sourceTree = "<group>"; };
+		04FAF00A2DAD21F700579A68 /* SettingsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsConstants.swift; sourceTree = "<group>"; };
+		04FAF00B2DAD21F700579A68 /* ShopConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopConstants.swift; sourceTree = "<group>"; };
+		04FAF00C2DAD21F700579A68 /* ThirdLvlConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLvlConstants.swift; sourceTree = "<group>"; };
+		04FAF00E2DAD21F700579A68 /* FirstLvlEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLvlEntity.swift; sourceTree = "<group>"; };
+		04FAF00F2DAD21F700579A68 /* FirstLvlInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLvlInteractor.swift; sourceTree = "<group>"; };
+		04FAF0102DAD21F700579A68 /* FirstLvlPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLvlPresenter.swift; sourceTree = "<group>"; };
+		04FAF0112DAD21F700579A68 /* FirstLvlRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLvlRouter.swift; sourceTree = "<group>"; };
+		04FAF0122DAD21F700579A68 /* FirstLvlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLvlView.swift; sourceTree = "<group>"; };
+		04FAF0142DAD21F700579A68 /* GameEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEntity.swift; sourceTree = "<group>"; };
+		04FAF0152DAD21F700579A68 /* GameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInteractor.swift; sourceTree = "<group>"; };
+		04FAF0162DAD21F700579A68 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		04FAF0172DAD21F700579A68 /* GameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRouter.swift; sourceTree = "<group>"; };
+		04FAF0182DAD21F700579A68 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		04FAF01A2DAD21F700579A68 /* MapContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapContract.swift; sourceTree = "<group>"; };
+		04FAF01B2DAD21F700579A68 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		04FAF01C2DAD21F700579A68 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		04FAF01D2DAD21F700579A68 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		04FAF01E2DAD21F700579A68 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04FAF0202DAD21F700579A68 /* MusicSelectionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelectionScene.swift; sourceTree = "<group>"; };
+		04FAF0222DAD21F700579A68 /* firstlvl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firstlvl.mp3; sourceTree = "<group>"; };
+		04FAF0232DAD21F700579A68 /* knightTap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knightTap.mp3; sourceTree = "<group>"; };
+		04FAF0242DAD21F700579A68 /* mainMelody.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainMelody.mp3; sourceTree = "<group>"; };
+		04FAF0252DAD21F700579A68 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		04FAF0272DAD21F700579A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FAF0282DAD21F700579A68 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		04FAF0292DAD21F700579A68 /* Base */ = {isa = PBXFileReference; explicitFileType = text.xml; name = Base; path = Base.lproj/info.plist; sourceTree = "<group>"; };
+		04FAF02D2DAD21F700579A68 /* SecondLvlEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLvlEntity.swift; sourceTree = "<group>"; };
+		04FAF02E2DAD21F700579A68 /* SecondLvlInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLvlInteractor.swift; sourceTree = "<group>"; };
+		04FAF02F2DAD21F700579A68 /* SecondLvlPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLvlPresenter.swift; sourceTree = "<group>"; };
+		04FAF0302DAD21F700579A68 /* SecondLvlRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLvlRouter.swift; sourceTree = "<group>"; };
+		04FAF0312DAD21F700579A68 /* SecondLvlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLvlView.swift; sourceTree = "<group>"; };
+		04FAF0332DAD21F700579A68 /* SettingsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsEntity.swift; sourceTree = "<group>"; };
+		04FAF0342DAD21F700579A68 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		04FAF0352DAD21F700579A68 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		04FAF0362DAD21F700579A68 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		04FAF0372DAD21F700579A68 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		04FAF0392DAD21F700579A68 /* ShopEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopEntity.swift; sourceTree = "<group>"; };
+		04FAF03A2DAD21F700579A68 /* ShopInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInteractor.swift; sourceTree = "<group>"; };
+		04FAF03B2DAD21F700579A68 /* ShopPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPresenter.swift; sourceTree = "<group>"; };
+		04FAF03C2DAD21F700579A68 /* ShopRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRouter.swift; sourceTree = "<group>"; };
+		04FAF03D2DAD21F700579A68 /* ShopCategoryOneScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCategoryOneScene.swift; sourceTree = "<group>"; };
+		04FAF03F2DAD21F700579A68 /* ThirdLvlEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLvlEntity.swift; sourceTree = "<group>"; };
+		04FAF0402DAD21F700579A68 /* ThirdLvlInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLvlInteractor.swift; sourceTree = "<group>"; };
+		04FAF0412DAD21F700579A68 /* ThirdLvlPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLvlPresenter.swift; sourceTree = "<group>"; };
+		04FAF0422DAD21F700579A68 /* ThirdLvlRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLvlRouter.swift; sourceTree = "<group>"; };
+		04FAF0432DAD21F700579A68 /* ThirdLvlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLvlView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04FAEFE52DAD219100579A68 /* UpTheBit2.0Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UpTheBit2.0Tests;
+			sourceTree = "<group>";
+		};
+		04FAEFEF2DAD219100579A68 /* UpTheBit2.0UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UpTheBit2.0UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FAEFC62DAD218F00579A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041DBBDD2DB53D1800C9599C /* libSuperpoweredAudioIOS.a in Frameworks */,
+				041DBBD52DB53A5600C9599C /* AVFoundation.framework in Frameworks */,
+				041DBBE22DB53EAA00C9599C /* Accelerate.framework in Frameworks */,
+				041DBBD12DB53A3500C9599C /* CoreMedia.framework in Frameworks */,
+				041DBBCE2DB53A3100C9599C /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FAEFDF2DAD219100579A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041DBBC82DB537E200C9599C /* libSuperpoweredAudioIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FAEFE92DAD219100579A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041DBBC02DB537E200C9599C /* Superpower */ = {
+			isa = PBXGroup;
+			children = (
+				041DBBC12DB537E200C9599C /* BMPAnalyzer.swift */,
+				041DBBBA2DB537E200C9599C /* BPMAnalyzer-Bridging-Header.h */,
+				041DBBBC2DB537E200C9599C /* Superpowered.mm */,
+				041DBBBD2DB537E200C9599C /* SuperpoweredAnalyzer.h */,
+				041DBBBE2DB537E200C9599C /* SuperpoweredDecoder.h */,
+				041DBBBF2DB537E200C9599C /* SuperpoweredSimple.h */,
+			);
+			path = Superpower;
+			sourceTree = "<group>";
+		};
+		041DBBC22DB537E200C9599C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				041DBBC02DB537E200C9599C /* Superpower */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		041DBBC92DB53A0D00C9599C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041DBBBB2DB537E200C9599C /* libSuperpoweredAudioIOS.a */,
+				041DBBE12DB53EAA00C9599C /* Accelerate.framework */,
+				041DBBD32DB53A5400C9599C /* AVFoundation.framework */,
+				041DBBCC2DB53A1B00C9599C /* CoreMedia.framework */,
+				041DBBCA2DB53A0D00C9599C /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04FAEFC02DAD218F00579A68 = {
+			isa = PBXGroup;
+			children = (
+				04FAF0482DAD21F700579A68 /* UpTheBit2 2.0 */,
+				04FAEFE52DAD219100579A68 /* UpTheBit2.0Tests */,
+				04FAEFEF2DAD219100579A68 /* UpTheBit2.0UITests */,
+				041DBBC92DB53A0D00C9599C /* Frameworks */,
+				04FAEFCA2DAD218F00579A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FAEFCA2DAD218F00579A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FAEFC92DAD218F00579A68 /* UpTheBit2.0.app */,
+				04FAEFE22DAD219100579A68 /* UpTheBit2.0Tests.xctest */,
+				04FAEFEC2DAD219100579A68 /* UpTheBit2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FAF0042DAD21F700579A68 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				041DBB5B2DB3BDD400C9599C /* Alagard-12px-unicode.ttf */,
+				04FAEFFF2DAD21F700579A68 /* Animations.xcassets */,
+				04FAF0002DAD21F700579A68 /* FirstLvlAssets.xcassets */,
+				04FAF0012DAD21F700579A68 /* MainAssets.xcassets */,
+				04FAF0022DAD21F700579A68 /* MapAssets.xcassets */,
+				04FAF0032DAD21F700579A68 /* ShopAssets.xcassets */,
+				041DBB452DAE891900C9599C /* SettingsAssets.xcassets */,
+				041DBB482DAEA2AE00C9599C /* SecondLvlAssets.xcassets */,
+				041DBB4B2DAEA2C600C9599C /* ThirdLvlAssets.xcassets */,
+				041DBB582DB2FBFA00C9599C /* MusicSelectAssets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		04FAF00D2DAD21F700579A68 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0052DAD21F700579A68 /* FirstLvlConstants.swift */,
+				04FAF0062DAD21F700579A68 /* GameSceneConstants.swift */,
+				04FAF0072DAD21F700579A68 /* MapConstants.swift */,
+				04FAF0082DAD21F700579A68 /* MediaPickerConstants.swift */,
+				04FAF0092DAD21F700579A68 /* SecondLvlConstants.swift */,
+				04FAF00A2DAD21F700579A68 /* SettingsConstants.swift */,
+				04FAF00B2DAD21F700579A68 /* ShopConstants.swift */,
+				04FAF00C2DAD21F700579A68 /* ThirdLvlConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		04FAF0132DAD21F700579A68 /* FirstLvl */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF00E2DAD21F700579A68 /* FirstLvlEntity.swift */,
+				04FAF00F2DAD21F700579A68 /* FirstLvlInteractor.swift */,
+				04FAF0102DAD21F700579A68 /* FirstLvlPresenter.swift */,
+				04FAF0112DAD21F700579A68 /* FirstLvlRouter.swift */,
+				04FAF0122DAD21F700579A68 /* FirstLvlView.swift */,
+			);
+			path = FirstLvl;
+			sourceTree = "<group>";
+		};
+		04FAF0192DAD21F700579A68 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0142DAD21F700579A68 /* GameEntity.swift */,
+				04FAF0152DAD21F700579A68 /* GameInteractor.swift */,
+				04FAF0172DAD21F700579A68 /* GameRouter.swift */,
+				04FAF0182DAD21F700579A68 /* GameScene.swift */,
+				04FAF0162DAD21F700579A68 /* GamePresenter.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		04FAF01F2DAD21F700579A68 /* MapScene */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF01A2DAD21F700579A68 /* MapContract.swift */,
+				04FAF01B2DAD21F700579A68 /* MapInteractor.swift */,
+				04FAF01C2DAD21F700579A68 /* MapPresenter.swift */,
+				04FAF01D2DAD21F700579A68 /* MapRouter.swift */,
+				04FAF01E2DAD21F700579A68 /* MapView.swift */,
+			);
+			path = MapScene;
+			sourceTree = "<group>";
+		};
+		04FAF0212DAD21F700579A68 /* MediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0202DAD21F700579A68 /* MusicSelectionScene.swift */,
+				041DBB5E2DB508DE00C9599C /* MusicPickerManager.swift */,
+				041DBB612DB50BB800C9599C /* MusicPlayerService.swift */,
+			);
+			path = MediaPicker;
+			sourceTree = "<group>";
+		};
+		04FAF0262DAD21F700579A68 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0222DAD21F700579A68 /* firstlvl.mp3 */,
+				04FAF0232DAD21F700579A68 /* knightTap.mp3 */,
+				04FAF0242DAD21F700579A68 /* mainMelody.mp3 */,
+				04FAF0252DAD21F700579A68 /* sound.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		04FAF02B2DAD21F700579A68 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0272DAD21F700579A68 /* AppDelegate.swift */,
+				04FAF0282DAD21F700579A68 /* GameViewController.swift */,
+				04FAF02A2DAD21F700579A68 /* info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		04FAF0322DAD21F700579A68 /* SecondLvl */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF02D2DAD21F700579A68 /* SecondLvlEntity.swift */,
+				04FAF02E2DAD21F700579A68 /* SecondLvlInteractor.swift */,
+				04FAF02F2DAD21F700579A68 /* SecondLvlPresenter.swift */,
+				04FAF0302DAD21F700579A68 /* SecondLvlRouter.swift */,
+				04FAF0312DAD21F700579A68 /* SecondLvlView.swift */,
+			);
+			path = SecondLvl;
+			sourceTree = "<group>";
+		};
+		04FAF0382DAD21F700579A68 /* SettingsScene */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0332DAD21F700579A68 /* SettingsEntity.swift */,
+				04FAF0342DAD21F700579A68 /* SettingsInteractor.swift */,
+				04FAF0352DAD21F700579A68 /* SettingsPresenter.swift */,
+				04FAF0362DAD21F700579A68 /* SettingsRouter.swift */,
+				04FAF0372DAD21F700579A68 /* SettingsView.swift */,
+			);
+			path = SettingsScene;
+			sourceTree = "<group>";
+		};
+		04FAF03E2DAD21F700579A68 /* ShopScene */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0392DAD21F700579A68 /* ShopEntity.swift */,
+				04FAF03A2DAD21F700579A68 /* ShopInteractor.swift */,
+				04FAF03B2DAD21F700579A68 /* ShopPresenter.swift */,
+				04FAF03C2DAD21F700579A68 /* ShopRouter.swift */,
+				04FAF03D2DAD21F700579A68 /* ShopCategoryOneScene.swift */,
+				041DBB3F2DAD509C00C9599C /* ShopCategoryTwoScene.swift */,
+				041DBB422DAD50D800C9599C /* ShopCategoryThreeScene.swift */,
+			);
+			path = ShopScene;
+			sourceTree = "<group>";
+		};
+		04FAF0442DAD21F700579A68 /* ThirdLvl */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF03F2DAD21F700579A68 /* ThirdLvlEntity.swift */,
+				04FAF0402DAD21F700579A68 /* ThirdLvlInteractor.swift */,
+				04FAF0412DAD21F700579A68 /* ThirdLvlPresenter.swift */,
+				04FAF0422DAD21F700579A68 /* ThirdLvlRouter.swift */,
+				04FAF0432DAD21F700579A68 /* ThirdLvlView.swift */,
+			);
+			path = ThirdLvl;
+			sourceTree = "<group>";
+		};
+		04FAF0482DAD21F700579A68 /* UpTheBit2 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				04FAF0192DAD21F700579A68 /* GameScene */,
+				04FAF03E2DAD21F700579A68 /* ShopScene */,
+				04FAF0132DAD21F700579A68 /* FirstLvl */,
+				041DBBC22DB537E200C9599C /* src */,
+				04FAF01F2DAD21F700579A68 /* MapScene */,
+				04FAF0212DAD21F700579A68 /* MediaPicker */,
+				04FAF0322DAD21F700579A68 /* SecondLvl */,
+				04FAF0382DAD21F700579A68 /* SettingsScene */,
+				04FAF0442DAD21F700579A68 /* ThirdLvl */,
+				04FAF00D2DAD21F700579A68 /* Constants */,
+				04FAF02B2DAD21F700579A68 /* Other */,
+				04FAF0042DAD21F700579A68 /* Assets */,
+				04FAF0262DAD21F700579A68 /* Music */,
+			);
+			path = "UpTheBit2 2.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FAEFC82DAD218F00579A68 /* UpTheBit2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FAEFF62DAD219100579A68 /* Build configuration list for PBXNativeTarget "UpTheBit2.0" */;
+			buildPhases = (
+				04FAEFC52DAD218F00579A68 /* Sources */,
+				04FAEFC62DAD218F00579A68 /* Frameworks */,
+				04FAEFC72DAD218F00579A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpTheBit2.0;
+			packageProductDependencies = (
+			);
+			productName = UpTheBit2.0;
+			productReference = 04FAEFC92DAD218F00579A68 /* UpTheBit2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FAEFE12DAD219100579A68 /* UpTheBit2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FAEFF92DAD219100579A68 /* Build configuration list for PBXNativeTarget "UpTheBit2.0Tests" */;
+			buildPhases = (
+				04FAEFDE2DAD219100579A68 /* Sources */,
+				04FAEFDF2DAD219100579A68 /* Frameworks */,
+				04FAEFE02DAD219100579A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FAEFE42DAD219100579A68 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04FAEFE52DAD219100579A68 /* UpTheBit2.0Tests */,
+			);
+			name = UpTheBit2.0Tests;
+			packageProductDependencies = (
+			);
+			productName = UpTheBit2.0Tests;
+			productReference = 04FAEFE22DAD219100579A68 /* UpTheBit2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04FAEFEB2DAD219100579A68 /* UpTheBit2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FAEFFC2DAD219100579A68 /* Build configuration list for PBXNativeTarget "UpTheBit2.0UITests" */;
+			buildPhases = (
+				04FAEFE82DAD219100579A68 /* Sources */,
+				04FAEFE92DAD219100579A68 /* Frameworks */,
+				04FAEFEA2DAD219100579A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FAEFEE2DAD219100579A68 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04FAEFEF2DAD219100579A68 /* UpTheBit2.0UITests */,
+			);
+			name = UpTheBit2.0UITests;
+			packageProductDependencies = (
+			);
+			productName = UpTheBit2.0UITests;
+			productReference = 04FAEFEC2DAD219100579A68 /* UpTheBit2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FAEFC12DAD218F00579A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					04FAEFC82DAD218F00579A68 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					04FAEFE12DAD219100579A68 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 04FAEFC82DAD218F00579A68;
+					};
+					04FAEFEB2DAD219100579A68 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 04FAEFC82DAD218F00579A68;
+					};
+				};
+			};
+			buildConfigurationList = 04FAEFC42DAD218F00579A68 /* Build configuration list for PBXProject "UpTheBit2.0" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FAEFC02DAD218F00579A68;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04FAEFCA2DAD218F00579A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FAEFC82DAD218F00579A68 /* UpTheBit2.0 */,
+				04FAEFE12DAD219100579A68 /* UpTheBit2.0Tests */,
+				04FAEFEB2DAD219100579A68 /* UpTheBit2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FAEFC72DAD218F00579A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FAF0772DAD21F700579A68 /* info.plist in Resources */,
+				04FAF0782DAD21F700579A68 /* firstlvl.mp3 in Resources */,
+				04FAF0792DAD21F700579A68 /* FirstLvlAssets.xcassets in Resources */,
+				04FAF07A2DAD21F700579A68 /* MapAssets.xcassets in Resources */,
+				04FAF07D2DAD21F700579A68 /* knightTap.mp3 in Resources */,
+				041DBB4D2DAEA2C600C9599C /* ThirdLvlAssets.xcassets in Resources */,
+				041DBB592DB2FBFA00C9599C /* MusicSelectAssets.xcassets in Resources */,
+				041DBB4A2DAEA2AE00C9599C /* SecondLvlAssets.xcassets in Resources */,
+				04FAF07E2DAD21F700579A68 /* sound.mp3 in Resources */,
+				04FAF07F2DAD21F700579A68 /* mainMelody.mp3 in Resources */,
+				04FAF0802DAD21F700579A68 /* ShopAssets.xcassets in Resources */,
+				041DBB462DAE891900C9599C /* SettingsAssets.xcassets in Resources */,
+				041DBB5C2DB3BDD400C9599C /* Alagard-12px-unicode.ttf in Resources */,
+				04FAF0812DAD21F700579A68 /* Animations.xcassets in Resources */,
+				04FAF0822DAD21F700579A68 /* MainAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FAEFE02DAD219100579A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FAF0B12DAD21F700579A68 /* info.plist in Resources */,
+				04FAF0B22DAD21F700579A68 /* firstlvl.mp3 in Resources */,
+				04FAF0B32DAD21F700579A68 /* FirstLvlAssets.xcassets in Resources */,
+				04FAF0B42DAD21F700579A68 /* MapAssets.xcassets in Resources */,
+				04FAF0B72DAD21F700579A68 /* knightTap.mp3 in Resources */,
+				041DBB4C2DAEA2C600C9599C /* ThirdLvlAssets.xcassets in Resources */,
+				041DBB5A2DB2FBFA00C9599C /* MusicSelectAssets.xcassets in Resources */,
+				041DBB492DAEA2AE00C9599C /* SecondLvlAssets.xcassets in Resources */,
+				04FAF0B82DAD21F700579A68 /* sound.mp3 in Resources */,
+				04FAF0B92DAD21F700579A68 /* mainMelody.mp3 in Resources */,
+				04FAF0BA2DAD21F700579A68 /* ShopAssets.xcassets in Resources */,
+				041DBB472DAE891900C9599C /* SettingsAssets.xcassets in Resources */,
+				041DBB5D2DB3BDD400C9599C /* Alagard-12px-unicode.ttf in Resources */,
+				04FAF0BB2DAD21F700579A68 /* Animations.xcassets in Resources */,
+				04FAF0BC2DAD21F700579A68 /* MainAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FAEFEA2DAD219100579A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FAEFC52DAD218F00579A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FAF0492DAD21F700579A68 /* ThirdLvlEntity.swift in Sources */,
+				04FAF04A2DAD21F700579A68 /* GamePresenter.swift in Sources */,
+				041DBB632DB50BB800C9599C /* MusicPlayerService.swift in Sources */,
+				04FAF04B2DAD21F700579A68 /* ShopConstants.swift in Sources */,
+				04FAF04C2DAD21F700579A68 /* GameInteractor.swift in Sources */,
+				04FAF04D2DAD21F700579A68 /* FirstLvlRouter.swift in Sources */,
+				04FAF04E2DAD21F700579A68 /* AppDelegate.swift in Sources */,
+				04FAF04F2DAD21F700579A68 /* MapConstants.swift in Sources */,
+				04FAF0502DAD21F700579A68 /* ShopInteractor.swift in Sources */,
+				04FAF0512DAD21F700579A68 /* MapView.swift in Sources */,
+				04FAF0522DAD21F700579A68 /* MapPresenter.swift in Sources */,
+				04FAF0532DAD21F700579A68 /* SecondLvlRouter.swift in Sources */,
+				04FAF0542DAD21F700579A68 /* ShopEntity.swift in Sources */,
+				04FAF0552DAD21F700579A68 /* GameViewController.swift in Sources */,
+				04FAF0562DAD21F700579A68 /* GameEntity.swift in Sources */,
+				04FAF0572DAD21F700579A68 /* SecondLvlView.swift in Sources */,
+				04FAF0582DAD21F700579A68 /* SettingsView.swift in Sources */,
+				04FAF0592DAD21F700579A68 /* FirstLvlConstants.swift in Sources */,
+				04FAF05A2DAD21F700579A68 /* SecondLvlEntity.swift in Sources */,
+				04FAF05B2DAD21F700579A68 /* SecondLvlPresenter.swift in Sources */,
+				04FAF05C2DAD21F700579A68 /* GameScene.swift in Sources */,
+				04FAF05D2DAD21F700579A68 /* ThirdLvlPresenter.swift in Sources */,
+				04FAF05E2DAD21F700579A68 /* MapContract.swift in Sources */,
+				04FAF05F2DAD21F700579A68 /* ThirdLvlConstants.swift in Sources */,
+				04FAF0602DAD21F700579A68 /* MediaPickerConstants.swift in Sources */,
+				04FAF0612DAD21F700579A68 /* SettingsRouter.swift in Sources */,
+				04FAF0622DAD21F700579A68 /* SecondLvlConstants.swift in Sources */,
+				04FAF0632DAD21F700579A68 /* MapInteractor.swift in Sources */,
+				04FAF0642DAD21F700579A68 /* ShopCategoryOneScene.swift in Sources */,
+				041DBB602DB508DE00C9599C /* MusicPickerManager.swift in Sources */,
+				04FAF0652DAD21F700579A68 /* FirstLvlInteractor.swift in Sources */,
+				04FAF0662DAD21F700579A68 /* ThirdLvlInteractor.swift in Sources */,
+				04FAF0672DAD21F700579A68 /* SecondLvlInteractor.swift in Sources */,
+				04FAF0682DAD21F700579A68 /* FirstLvlPresenter.swift in Sources */,
+				04FAF0692DAD21F700579A68 /* MapRouter.swift in Sources */,
+				04FAF06A2DAD21F700579A68 /* MusicSelectionScene.swift in Sources */,
+				04FAF06B2DAD21F700579A68 /* ShopPresenter.swift in Sources */,
+				04FAF06C2DAD21F700579A68 /* SettingsInteractor.swift in Sources */,
+				04FAF06D2DAD21F700579A68 /* ThirdLvlView.swift in Sources */,
+				041DBB442DAD50D800C9599C /* ShopCategoryThreeScene.swift in Sources */,
+				04FAF06E2DAD21F700579A68 /* GameSceneConstants.swift in Sources */,
+				04FAF06F2DAD21F700579A68 /* ShopRouter.swift in Sources */,
+				04FAF0702DAD21F700579A68 /* FirstLvlView.swift in Sources */,
+				04FAF0712DAD21F700579A68 /* SettingsPresenter.swift in Sources */,
+				04FAF0722DAD21F700579A68 /* FirstLvlEntity.swift in Sources */,
+				04FAF0732DAD21F700579A68 /* GameRouter.swift in Sources */,
+				04FAF0742DAD21F700579A68 /* ThirdLvlRouter.swift in Sources */,
+				041DBB402DAD50A900C9599C /* ShopCategoryTwoScene.swift in Sources */,
+				041DBBC32DB537E200C9599C /* BMPAnalyzer.swift in Sources */,
+				041DBBC42DB537E200C9599C /* Superpowered.mm in Sources */,
+				04FAF0752DAD21F700579A68 /* SettingsConstants.swift in Sources */,
+				04FAF0762DAD21F700579A68 /* SettingsEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FAEFDE2DAD219100579A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FAF0832DAD21F700579A68 /* ThirdLvlEntity.swift in Sources */,
+				04FAF0842DAD21F700579A68 /* GamePresenter.swift in Sources */,
+				04FAF0852DAD21F700579A68 /* ShopConstants.swift in Sources */,
+				04FAF0862DAD21F700579A68 /* GameInteractor.swift in Sources */,
+				04FAF0872DAD21F700579A68 /* FirstLvlRouter.swift in Sources */,
+				04FAF0882DAD21F700579A68 /* AppDelegate.swift in Sources */,
+				041DBB622DB50BB800C9599C /* MusicPlayerService.swift in Sources */,
+				04FAF0892DAD21F700579A68 /* MapConstants.swift in Sources */,
+				04FAF08A2DAD21F700579A68 /* ShopInteractor.swift in Sources */,
+				041DBB432DAD50D800C9599C /* ShopCategoryThreeScene.swift in Sources */,
+				04FAF08B2DAD21F700579A68 /* MapView.swift in Sources */,
+				04FAF08C2DAD21F700579A68 /* MapPresenter.swift in Sources */,
+				041DBBC62DB537E200C9599C /* BMPAnalyzer.swift in Sources */,
+				041DBBC72DB537E200C9599C /* Superpowered.mm in Sources */,
+				04FAF08D2DAD21F700579A68 /* SecondLvlRouter.swift in Sources */,
+				04FAF08E2DAD21F700579A68 /* ShopEntity.swift in Sources */,
+				041DBB5F2DB508DE00C9599C /* MusicPickerManager.swift in Sources */,
+				04FAF08F2DAD21F700579A68 /* GameViewController.swift in Sources */,
+				04FAF0902DAD21F700579A68 /* GameEntity.swift in Sources */,
+				04FAF0912DAD21F700579A68 /* SecondLvlView.swift in Sources */,
+				04FAF0922DAD21F700579A68 /* SettingsView.swift in Sources */,
+				04FAF0932DAD21F700579A68 /* FirstLvlConstants.swift in Sources */,
+				04FAF0942DAD21F700579A68 /* SecondLvlEntity.swift in Sources */,
+				04FAF0952DAD21F700579A68 /* SecondLvlPresenter.swift in Sources */,
+				04FAF0962DAD21F700579A68 /* GameScene.swift in Sources */,
+				04FAF0972DAD21F700579A68 /* ThirdLvlPresenter.swift in Sources */,
+				04FAF0982DAD21F700579A68 /* MapContract.swift in Sources */,
+				04FAF0992DAD21F700579A68 /* ThirdLvlConstants.swift in Sources */,
+				04FAF09A2DAD21F700579A68 /* MediaPickerConstants.swift in Sources */,
+				04FAF09B2DAD21F700579A68 /* SettingsRouter.swift in Sources */,
+				04FAF09C2DAD21F700579A68 /* SecondLvlConstants.swift in Sources */,
+				04FAF09D2DAD21F700579A68 /* MapInteractor.swift in Sources */,
+				04FAF09E2DAD21F700579A68 /* ShopCategoryOneScene.swift in Sources */,
+				04FAF09F2DAD21F700579A68 /* FirstLvlInteractor.swift in Sources */,
+				04FAF0A02DAD21F700579A68 /* ThirdLvlInteractor.swift in Sources */,
+				04FAF0A12DAD21F700579A68 /* SecondLvlInteractor.swift in Sources */,
+				04FAF0A22DAD21F700579A68 /* FirstLvlPresenter.swift in Sources */,
+				04FAF0A32DAD21F700579A68 /* MapRouter.swift in Sources */,
+				04FAF0A42DAD21F700579A68 /* MusicSelectionScene.swift in Sources */,
+				04FAF0A52DAD21F700579A68 /* ShopPresenter.swift in Sources */,
+				04FAF0A62DAD21F700579A68 /* SettingsInteractor.swift in Sources */,
+				041DBB412DAD50A900C9599C /* ShopCategoryTwoScene.swift in Sources */,
+				04FAF0A72DAD21F700579A68 /* ThirdLvlView.swift in Sources */,
+				04FAF0A82DAD21F700579A68 /* GameSceneConstants.swift in Sources */,
+				04FAF0A92DAD21F700579A68 /* ShopRouter.swift in Sources */,
+				04FAF0AA2DAD21F700579A68 /* FirstLvlView.swift in Sources */,
+				04FAF0AB2DAD21F700579A68 /* SettingsPresenter.swift in Sources */,
+				04FAF0AC2DAD21F700579A68 /* FirstLvlEntity.swift in Sources */,
+				04FAF0AD2DAD21F700579A68 /* GameRouter.swift in Sources */,
+				04FAF0AE2DAD21F700579A68 /* ThirdLvlRouter.swift in Sources */,
+				04FAF0AF2DAD21F700579A68 /* SettingsConstants.swift in Sources */,
+				04FAF0B02DAD21F700579A68 /* SettingsEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FAEFE82DAD219100579A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FAEFE42DAD219100579A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FAEFC82DAD218F00579A68 /* UpTheBit2.0 */;
+			targetProxy = 04FAEFE32DAD219100579A68 /* PBXContainerItemProxy */;
+		};
+		04FAEFEE2DAD219100579A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FAEFC82DAD218F00579A68 /* UpTheBit2.0 */;
+			targetProxy = 04FAEFED2DAD219100579A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FAF02A2DAD21F700579A68 /* info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FAF0292DAD21F700579A68 /* Base */,
+			);
+			name = info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FAEFF42DAD219100579A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04FAEFF52DAD219100579A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FAEFF72DAD219100579A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX2B57NH5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/mac/Desktop/ios/UpTheBit2.0/UpTheBit2 2.0/Other/Base.lproj/info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "igor.UpTheBit2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UpTheBit2 2.0/src/Superpower/BPMAnalyzer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FAEFF82DAD219100579A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AX2B57NH5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/mac/Desktop/ios/UpTheBit2.0/UpTheBit2 2.0/Other/Base.lproj/info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "igor.UpTheBit2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UpTheBit2 2.0/src/Superpower/BPMAnalyzer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04FAEFFA2DAD219100579A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "igor.UpTheBit2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpTheBit2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpTheBit2.0";
+			};
+			name = Debug;
+		};
+		04FAEFFB2DAD219100579A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/Superpower",
+					"$(PROJECT_DIR)/UpTheBit2\\ 2.0/src/Superpower",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "igor.UpTheBit2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpTheBit2.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpTheBit2.0";
+			};
+			name = Release;
+		};
+		04FAEFFD2DAD219100579A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "igor.UpTheBit2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UpTheBit2.0;
+			};
+			name = Debug;
+		};
+		04FAEFFE2DAD219100579A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "igor.UpTheBit2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UpTheBit2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FAEFC42DAD218F00579A68 /* Build configuration list for PBXProject "UpTheBit2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FAEFF42DAD219100579A68 /* Debug */,
+				04FAEFF52DAD219100579A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FAEFF62DAD219100579A68 /* Build configuration list for PBXNativeTarget "UpTheBit2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FAEFF72DAD219100579A68 /* Debug */,
+				04FAEFF82DAD219100579A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FAEFF92DAD219100579A68 /* Build configuration list for PBXNativeTarget "UpTheBit2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FAEFFA2DAD219100579A68 /* Debug */,
+				04FAEFFB2DAD219100579A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FAEFFC2DAD219100579A68 /* Build configuration list for PBXNativeTarget "UpTheBit2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FAEFFD2DAD219100579A68 /* Debug */,
+				04FAEFFE2DAD219100579A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FAEFC12DAD218F00579A68 /* Project object */;
+}
